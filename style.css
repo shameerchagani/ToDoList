@@ -8,7 +8,9 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: lightblue;
 }
-
+.wrapper{
+    width: 50%;
+}
 ul {
     padding-left: 0;
 }
