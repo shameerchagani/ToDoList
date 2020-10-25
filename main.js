@@ -6,12 +6,13 @@ console.log(event.target);
 let form = $(event.target);
 let item = form.children("input").val();
 let li = $("<li> </li>");
-
 li.append('<input type="checkbox" />');
 
 let span = $("<span></span>");
-span.text(item);
+let dt = $("#dt").val();
+span.text(item + dt);
 li.append(span);
+
 
 let button = $("<button> Delete </button>");
 li.append(button);
